@@ -15,8 +15,8 @@
        - **Curva ROC do Modelo Comitê:** A curva ROC (Receiver Operating Characteristic) avalia o desempenho do modelo ao variar o threshold de classificação. A área sob a curva (AUC) indica a capacidade do modelo em distinguir entre melanoma e não melanoma. No caso deste modelo, a AUC de 0.602 indica uma leve superioridade sobre uma classificação aleatória (50%), sugerindo espaço para melhorias.
        - **Matriz de Confusão:** A matriz de confusão apresenta o desempenho do modelo com base em um threshold de 0.5, exibindo a quantidade de verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos. Esses valores são essenciais para avaliar as métricas de sensibilidade e especificidade.
 
-![Matriz de Confusão](Melanoma_Deteccao/matriz confusao.png)
-![Curva ROC](Melanoma_Deteccao/Curva ROC modelo comitê.png)
+![Matriz de Confusão](Melanoma_Deteccao/Matriz_Confusao.png)
+![Curva ROC](Melanoma_Deteccao/Curva_ROC.png)
 
 
 - **Preenchimento de Dados de Colesterol Faltante**:
@@ -24,7 +24,7 @@
 
        - **Comparação entre Valores Preditos com KNN e Valores Reais:** A imagem apresenta dois gráficos que comparam a relação entre colesterol e a maior frequência cardíaca atingida (MaxHR). O primeiro gráfico mostra os valores preditos pelo modelo K-Nearest Neighbors (KNN), enquanto o segundo exibe os valores reais. Observa-se que o modelo KNN conseguiu capturar um padrão mais próximo do esperado, evidenciando a relação entre os atributos.
 
-![Comparação com KNN](Preenchimento_de_Dados_de_Colesterol_Faltante/KNN valores faltantes.png)
+![Comparação com KNN](Preenchimento_de_Dados_de_Colesterol_Faltante/KNN_Valores_Faltantes.png)
 
 
 - **Probabilidade de Sobrevivência Câncer de Mama**:
@@ -35,9 +35,9 @@
     - **Taxa de Perigo**: O gráfico ilustra a taxa de risco (hazard rate) ao longo do tempo. Um aumento na taxa indica momentos de maior probabilidade de mortalidade, fornecendo insights sobre períodos críticos para os pacientes.
     - **Taxa de Perigo Acumulado**: Este gráfico mostra a taxa de perigo acumulado ao longo do tempo. Ele evidencia que, para os homens, após quatro anos, o risco de morte atinge um patamar crítico, enquanto para as mulheres o perigo segue crescendo até se estabilizar por volta de sete anos.
 
-![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Sobrevivencia sob Tempo.png)
-![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Taxa de Perigo.png)
-![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Taxa de Perigo Acumulado.png)
+![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Sobrevivencia_sob_Tempo.png)
+![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Taxa_de_Perigo.png)
+![My Image](Probabilidade_de_Sobrevivencia_Cancer_de_Mama/Taxa_de_Perigo_Acumulado.png)
 
 - **Risco de Ataque Cardíaco (Prognóstico)**:
   - Analisa os resultados de um modelo de regressão logística utilizando um conjunto de dados com diversas variáveis, identificando quais possuem maior significância para o prognóstico. O melhor modelo é escolhido com base na análise da curva ROC e na avaliação das matrizes de confusão. 
@@ -52,8 +52,8 @@
     - **Matriz de Confusão**: Representa a precisão do modelo ao classificar corretamente os casos de ataque cardíaco e não ataque cardíaco. Mostra a quantidade de verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos.
     - **Curva ROC**: Exibe a performance do modelo ao longo de diferentes limiares de decisão. A área sob a curva (AUC) é um indicador da qualidade do modelo, quanto maior, melhor a capacidade preditiva.
 
-![My Image](Risco_de_Ataque_Cardiaco_Prognostico/Matriz Confusão.png)
-![My Image](Risco_de_Ataque_Cardiaco_Prognostico/Curva ROC.png)
+![My Image](Risco_de_Ataque_Cardiaco_Prognostico/Matriz_Confusao.png)
+![My Image](Risco_de_Ataque_Cardiaco_Prognostico/Curva_ROC.png)
 
 
 - **Segmentação do Átrio Esquerdo**:
@@ -72,8 +72,8 @@
   - Apesar dos desafios, os resultados indicam que o modelo capturou algumas informações relevantes e pode ser aprimorado com ajustes na estrutura e no processamento dos dados.
 
 
-![My Image](Segmentacao_Atrio_Esquerdo/Valor Predito.png)
-![My Image](Segmentacao_Atrio_Esquerdo/Valor Real.png)
+![My Image](Segmentacao_Atrio_Esquerdo/Valor_Predito.png)
+![My Image](Segmentacao_Atrio_Esquerdo/Valor_Real.png)
 
 
 Todos os exemplos são melhor explicados e detalhados em seus respectivos arquivos .ipynb, que também contêm a fonte original dos dados utilizados. Os dados não são de minha autoria, mas são disponibilizados publicamente para fins de pesquisa não comerciais.
