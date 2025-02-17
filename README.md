@@ -60,9 +60,10 @@
   - O projeto utiliza a arquitetura U-Net para realizar a segmentação do átrio esquerdo a partir de imagens de ressonância magnética (MRI). Os dados foram obtidos do **Medical Segmentation Decathlon**, e a implementação foi baseada em cursos de diagnóstico por IA.
 
   - **Imagens Geradas:**
-    - **Imagem Real do Átrio Esquerdo**: Representa a segmentação manual feita por especialistas para referência no treinamento do modelo.
-    - **Imagem Predita pelo Modelo**: Segmentação gerada pela U-Net treinada, utilizada para comparação com a imagem real e avaliação da precisão do modelo.
+  - **Imagem Predita pelo Modelo**: Segmentação gerada pela U-Net treinada, utilizada para comparação com a imagem real e avaliação da precisão do modelo.
 
+    - **Imagem Real do Átrio Esquerdo**: Representa a segmentação manual feita por especialistas para referência no treinamento do modelo.
+    
   - **Resultados e Considerações:**
     - O modelo apresentou um **Coeficiente Dice de 0.3950 no treino** e **0.7248 na validação**.
     - A segmentação foi capaz de capturar padrões no MRI, mas ainda apresenta dificuldades em identificar corretamente o átrio esquerdo.
