@@ -5,8 +5,8 @@
       - **Curva ROC do Modelo Comitê:** A curva ROC (Receiver Operating Characteristic) é utilizada para avaliar o desempenho do modelo ao variar o threshold de classificação. A área sob a curva (AUC) indica a capacidade do modelo em diferenciar entre classes malignas e benignas, sendo uma AUC próxima de 1 um sinal de excelente desempenho.
       - **Matriz de Confusão:** A matriz de confusão exibe o desempenho do modelo Comitê, mostrando a quantidade de acertos e erros nas predições. As classes "Benigno" e "Maligno" estão indicadas nos eixos, e os valores nas células indicam o número de pacientes corretamente e incorretamente classificados.
 
-![Matriz de Confusão](Cancer_de_Mama_Previsao/Matriz de Confusão Comitê.png)
-![Curva ROC](Cancer_de_Mama_Previsao/curva ROC.png)
+![Matriz de Confusão](Cancer_de_Mama_Previsao/Matriz_Confusao.png)
+![Curva ROC](Cancer_de_Mama_Previsao/Curva_ROC.png)
 
 
 - **Melanoma Detecção**:
