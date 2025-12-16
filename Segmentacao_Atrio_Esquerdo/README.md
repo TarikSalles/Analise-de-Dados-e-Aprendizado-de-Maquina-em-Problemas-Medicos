@@ -16,8 +16,8 @@
   - Apesar dos desafios, os resultados indicam que o modelo capturou algumas informações relevantes e pode ser aprimorado com ajustes na estrutura e no processamento dos dados.
 
 
-![My Image](Segmentacao_Atrio_Esquerdo/Valor_Predito.png)
-![My Image](Segmentacao_Atrio_Esquerdo/Valor_Real.png)
+![My Image](Valor_Predito.png)
+![My Image](Valor_Real.png)
 
 
 Todos os exemplos são melhor explicados e detalhados em seus respectivos arquivos .ipynb, que também contêm a fonte original dos dados utilizados. Os dados não são de minha autoria, mas são disponibilizados publicamente para fins de pesquisa não comerciais.
